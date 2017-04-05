@@ -1,4 +1,4 @@
-{{- $searchPath := ":global.kolla.ironic.api.create_db.job:global.kolla.ironic.api.create_db.all:global.kolla.ironic.api.all:global.kolla.ironic.all:global.kolla.all" }}
+{{- $searchPath := ":global.kolla.ironic.create_db.job:global.kolla.ironic.create_db.all:global.kolla.ironic.api.all:global.kolla.ironic.all:global.kolla.all" }}
 {{- $resourceName := "ironic" }}
 {{- $serviceName := "ironic" }}
 {{- $podTypeBootstrap := true }}

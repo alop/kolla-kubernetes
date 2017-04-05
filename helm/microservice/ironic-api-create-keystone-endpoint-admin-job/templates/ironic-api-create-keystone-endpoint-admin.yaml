@@ -1,4 +1,4 @@
-{{- $searchPath := ":global.kolla.ironic.api.create_keystone_endpoint.admin.job:global.kolla.ironic.api.create_keystone_endpoint.all:global.kolla.ironic.api.all:global.kolla.ironic.all:global.kolla.all" }}
+{{- $searchPath := ":global.kolla.ironic.create_keystone_endpoint.admin.job:global.kolla.ironic.create_keystone_endpoint.all:global.kolla.ironic.api.all:global.kolla.ironic.all:global.kolla.all" }}
 {{- $resourceName := "ironic-api-create-keystone-endpoint-admin" }}
 {{- $netHostTrue := false }}
 {{- $podTypeBootstrap := true }}
